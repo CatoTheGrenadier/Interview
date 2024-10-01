@@ -14,6 +14,8 @@
 		28292BCB2CAC711C00EB8AD3 /* InterviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28292BCA2CAC711C00EB8AD3 /* InterviewTests.swift */; };
 		28292BD52CAC711C00EB8AD3 /* InterviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28292BD42CAC711C00EB8AD3 /* InterviewUITests.swift */; };
 		28292BD72CAC711C00EB8AD3 /* InterviewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28292BD62CAC711C00EB8AD3 /* InterviewUITestsLaunchTests.swift */; };
+		28292BE42CAC717E00EB8AD3 /* RowCounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28292BE32CAC717E00EB8AD3 /* RowCounterView.swift */; };
+		28292BE62CAC7A5A00EB8AD3 /* CounterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28292BE52CAC7A5A00EB8AD3 /* CounterModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		28292BD02CAC711C00EB8AD3 /* InterviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InterviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28292BD42CAC711C00EB8AD3 /* InterviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterviewUITests.swift; sourceTree = "<group>"; };
 		28292BD62CAC711C00EB8AD3 /* InterviewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterviewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		28292BE32CAC717E00EB8AD3 /* RowCounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowCounterView.swift; sourceTree = "<group>"; };
+		28292BE52CAC7A5A00EB8AD3 /* CounterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				28292BB92CAC711900EB8AD3 /* InterviewApp.swift */,
 				28292BBB2CAC711900EB8AD3 /* ContentView.swift */,
+				28292BE32CAC717E00EB8AD3 /* RowCounterView.swift */,
+				28292BE52CAC7A5A00EB8AD3 /* CounterModel.swift */,
 				28292BBD2CAC711C00EB8AD3 /* Assets.xcassets */,
 				28292BBF2CAC711C00EB8AD3 /* Preview Content */,
 			);
@@ -257,7 +263,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28292BE42CAC717E00EB8AD3 /* RowCounterView.swift in Sources */,
 				28292BBC2CAC711900EB8AD3 /* ContentView.swift in Sources */,
+				28292BE62CAC7A5A00EB8AD3 /* CounterModel.swift in Sources */,
 				28292BBA2CAC711900EB8AD3 /* InterviewApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

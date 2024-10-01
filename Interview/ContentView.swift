@@ -8,14 +8,13 @@
 import SwiftUI
 
 struct ContentView: View {
+    let counters = (0..<50).map { _ in CounterModel() }
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        List{
+            ForEach(counters){ i in
+                RowCounterView(countermodel: i)
+            }
         }
-        .padding()
     }
 }
 
